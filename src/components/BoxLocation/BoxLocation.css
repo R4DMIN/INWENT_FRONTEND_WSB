@@ -1,0 +1,11 @@
+.BoxLocation {
+    width: min-content;
+    position: relative;
+}
+
+.BoxLocation .Data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-end;
+}

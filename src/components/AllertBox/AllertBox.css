@@ -1,0 +1,63 @@
+.HeaderAlertPlaceholder {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 75px;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+.HeaderAlertPlaceholder .AlertBox {
+    background-color: var(--backgrd-color);
+    border: none;
+    display: flex;
+    margin: auto;
+    height: 80%;
+    max-width: 0%;
+    margin-top: 7px;
+    border-radius: 20px;
+    transition: max-width 0.5s ease-out;
+}
+
+.HeaderAlertPlaceholder .Open {
+    max-width: 70%;
+    width: max-content;
+}
+
+.HeaderAlertPlaceholder .Close {
+    border: none;
+}
+
+.HeaderAlertPlaceholder .AlertBox .AlertIcon {
+    margin: 7px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderAlertPlaceholder .AlertBox img {
+    width: 75%;
+    height: 75%;
+}
+
+.HeaderAlertPlaceholder .AlertBox .AlertMessage {
+    margin: 7px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.HeaderAlertPlaceholder .Warning {
+    border-color: var(--warning-color);
+}
+
+.HeaderAlertPlaceholder .Error {
+    border-color: var(--error-color);
+}
+
+.HeaderAlertPlaceholder .Ok {
+    border-color: var(--ok-color);
+}

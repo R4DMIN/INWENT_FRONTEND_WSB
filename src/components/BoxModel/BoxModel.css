@@ -1,0 +1,20 @@
+.BoxModel {
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+
+.BoxModel .Photo {
+    position: relative;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BoxModel .Photo img {
+    max-height: 100%;
+    max-width: 100%;
+}

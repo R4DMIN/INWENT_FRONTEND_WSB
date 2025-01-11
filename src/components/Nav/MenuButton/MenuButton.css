@@ -1,0 +1,41 @@
+.NavMenuButton {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    border-bottom: 1px;
+    border-color: #2F333E;
+    border-bottom-style: inset;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.NavMenuButton:hover {
+    filter: brightness(90%);
+}
+
+.NavMenuButtonIcon {
+    height: 50px;
+    width: 50px;
+    filter: invert(15%) sepia(4%) saturate(3553%) hue-rotate(187deg) brightness(96%) contrast(84%);
+}
+
+.NavMenuButtonIcon img {
+    width: 44px;
+    height: 44px;
+    margin: 3px;
+}
+
+.NavMenuButtonText {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    color: #2F333E;
+    font-size: 18;
+    align-items: center;
+    justify-content: center;
+}

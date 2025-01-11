@@ -1,0 +1,47 @@
+.WindowsTabs {
+    width: 100%;
+    margin-top: 1px;
+}
+
+.WindowsTabs .TabsSection {
+    width: 100%;
+    border-bottom: solid 1px gray;
+}
+
+.WindowsTabs .TabsButtons {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.WindowsTabs .TabsButtons button {
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background: none;
+    border: none;
+    border-bottom: solid 2px transparent;
+    font-weight: bold;
+    color: gray;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.WindowsTabs .TabsButtons .Selected {
+    border-bottom: solid 2px #2F333E;
+    color: #2F333E;
+}
+
+/* .WindowsTabs button:hover {
+
+    transition: 0ms;
+    padding: 10px 0px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+} */

@@ -1,0 +1,65 @@
+.DropDownMenu {
+    position: relative;
+}
+
+.IsOpen {
+    background-color: #2F333E;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.IsOpen img {
+    filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(7deg) brightness(107%) contrast(101%);
+}
+
+.DownMenu {
+    padding: 5px;
+    background-color: #2F333E;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 7px;
+}
+
+.DropDownMenu .OnLeft {
+    right: 0;
+    border-radius: 7px 0px 7px 7px;
+}
+
+.DropDownMenu .OnRight {
+    left: 0;
+    border-radius: 0px 7px 7px 7px;
+}
+
+.DropDownMenu .OnLeft:before {
+    right: 7px;
+}
+
+.DropDownMenu .OnRight:before {
+    left: 7px;
+}
+
+.DropDownMenuButton button {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 2px;
+    color: #2F333E;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 900;
+    text-wrap: nowrap;
+}
+
+.DropDownMenuButton button:hover{ 
+    filter: brightness(0.8);
+}
+
+.DropDownMenuButton button:disabled{ 
+    filter: brightness(0.4);
+}
+

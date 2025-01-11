@@ -1,0 +1,64 @@
+.ModelDetails {
+    width: 100%;
+    position: relative;
+    transition: 300ms;
+}
+
+.ModelDetails.close {
+    max-height: 110px;
+}
+
+.Section {
+    padding: 15px;
+}
+
+.ModelDetails .ModelInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ModelDetails .DataSection {
+    padding-left: 15px;
+}
+
+.ModelDetails .ModelInfo .PhotoSection {
+    position: relative;
+    width: 225px;
+    height: 225px;
+}
+
+.ModelDetails .ModelInfo .PhotoSection:hover image {
+    opacity: 0.3;
+}
+
+.ModelDetails .ModelInfo .PhotoSection:hover .Middle {
+    opacity: 1;
+}
+
+.ModelDetails .ModelInfo .PhotoSection .Middle {
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+.ModelDetails .ModelInfo .PhotoSection img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    opacity: 1;
+    backface-visibility: hidden;
+}
+
+.ModelDetails .ModelInfo .DataSection {
+    text-align: right;
+}
+
+.ModelDetails .Buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 38px;
+}

@@ -1,0 +1,51 @@
+.AlertBoxYesNo {
+    background-color: var(--backgrd-color);
+    border-radius: var(--window-radius);
+    border: var(--window-border);
+    width: 400px;
+    min-height: 100px;
+}
+
+.AlertBoxYesNo .TitleSection {
+    
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    border-bottom: var(--window-border);
+    background-color: var(--main-color);
+    border-radius: 12px 12px 0px 0px;
+    color: var(--backgrd-color)
+
+}
+
+.AlertBoxYesNo .TitleSection .Title {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.AlertBoxYesNo .TitleSection .Icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AlertBoxYesNo .TitleSection .Icon img {
+    width: 90%;
+    height: 90%;
+}
+
+.AlertBoxYesNo .Message {
+    padding: 15px;
+}
+
+/* .AlertBoxYesNo .ButtonSection {
+padding: 0px 15px 15px 15px;
+display: flex;
+justify-content: space-around;
+} */

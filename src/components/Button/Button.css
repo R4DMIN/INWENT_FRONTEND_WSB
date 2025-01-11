@@ -1,0 +1,54 @@
+.TextButton {
+    background: none;
+    cursor: pointer;
+    border: solid 1px #2f333e;
+    padding: 8px 20px 8px 20px;
+    background-color: var(--main-color);
+    /* font-weight: bold; */
+    color: #ffffffea;
+    background: linear-gradient(to right, #2f333ed5 50%, #2f333e 50%);
+    background-size: 200% 50%;
+    background-position: right bottom;
+    transition: all .2s ease-out;
+    /* border-radius: 3px; */
+}
+
+.TextButton:hover {
+    background-position: left bottom;
+    color: #ffffff;
+}
+
+.TextButton:disabled {
+    /* filter: brightness(60%); */
+    cursor: initial;
+    opacity: 0;
+}
+
+.IconButton {
+    width: 30px;
+    height: 30px;
+}
+
+.IconButton button {
+    width: 30px;
+    height: 30px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.IconButton button:hover img {
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    filter: none;
+}
+
+.IconButton img {
+    max-width: 100%;
+    max-height: 100%;
+    filter: invert(15%) sepia(4%) saturate(3553%) hue-rotate(187deg) brightness(96%) contrast(84%);
+}

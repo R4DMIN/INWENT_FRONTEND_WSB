@@ -1,0 +1,21 @@
+.LocationDetails {
+    position: relative;
+    width: 600px;
+}
+
+.LocationDetails .Buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 38px;
+    gap: 20px;
+}
+
+.LocationDetails .Data {
+    width: 90%;
+}
+
+.LocationDetails .TEST {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+.SearchBar {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    outline-offset: -2px;
+}
+
+.SearchBar .searchInput {
+    flex: 1;
+    position: relative;
+}
+
+.SearchBar input {
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 44px; /* Space for the icon */
+    font-size: 16px;
+    border: 2px solid var(--main-color);
+    width: 100%;
+}
+
+.SearchBar input:focus {
+    outline: none;
+}
+
+.SearchBar .searchIcon {
+    position: absolute;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+}
+
+.SearchBar img {
+    width: 28px; /* Adjust icon size */
+    height: 28px; /* Adjust icon size */
+}

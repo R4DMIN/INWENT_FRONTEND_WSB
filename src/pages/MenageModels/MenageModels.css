@@ -1,0 +1,8 @@
+.MenageModels {
+    gap: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    height: 95%;
+}

@@ -1,0 +1,28 @@
+.Collapsible {
+    margin: 5px;
+
+}
+
+.Collapsible .Bar {
+    width: 100%;
+    height: 25px;
+    background-color: var(--main-color);
+    color: var(--backgrd-color);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid var(--main-color);
+}
+
+.Collapsible .Bar img {
+    filter: invert(100%) sepia(1%) saturate(7498%) hue-rotate(151deg) brightness(112%) contrast(100%);
+}
+
+.Collapsible .Concent {
+    width: 100%;
+    max-height: 700px;
+    overflow-y: hidden;
+    outline: 1px solid var(--main-color);
+    display: flex;
+}

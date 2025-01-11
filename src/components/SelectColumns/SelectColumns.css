@@ -1,0 +1,52 @@
+.SelectColumns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.SelectColumns h3 {
+    font-weight: bold;
+    font-size: 17px;
+    margin: 3px 0 10px 0;
+}
+
+.SelectColumns .List {
+    width: 250px;
+    border: 1px solid #d9e0e4;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--backgrd2-color);
+    margin: 0 5px 0 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.SelectColumns .List ul {
+    max-height: 300px;
+    list-style-type: none;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.SelectColumns .ListItem {
+    padding: 8px 10px;
+    margin: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    border: 1px solid transparent;
+}
+
+.SelectColumns .SelectedItem {
+    background-color: #2f333e34;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--main-color);
+}
+
+.SelectColumns .Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}

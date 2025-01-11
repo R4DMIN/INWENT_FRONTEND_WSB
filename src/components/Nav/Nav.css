@@ -1,0 +1,17 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.Nav.open {
+    width: 200px;
+    transition: 300ms;
+}
+
+.Nav.close {
+    width: 50px;
+    transition: 300ms;
+}

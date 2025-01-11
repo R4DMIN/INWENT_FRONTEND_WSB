@@ -1,0 +1,53 @@
+.TableSimple {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.TableSimple table {
+    line-height: 18px;
+    font-size: 16px;
+    border-collapse: collapse;
+}
+
+.TableSimple th {
+    text-wrap: nowrap;
+    padding: 3px;
+}
+
+
+.TableSimple .Color tr:nth-child(odd) {
+    background-color: var(--backgrd3-color);
+}
+
+.TableSimple .Color tr:nth-child(even) {
+    background-color: var(--backgrd-color);
+}
+
+.TableSimple .Line tr {
+    border-bottom: solid 1px var(--main-color);
+}
+
+.TableSimple .Line tr:last-child {
+    border: 0;
+}
+
+.TableSimple .Name {
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.TableSimple .Value {
+    text-align: left;
+    font-weight: unset;
+}
+
+.TableSimple select {
+    min-width: 177px;
+    padding: 1px 2px;
+}
+
+.TableSimple textarea {
+    resize: none;
+}

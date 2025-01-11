@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  overflow: hidden;
+}
+
+:root {
+  --main-color: #2F333E;
+  --backgrd-color: white;
+  --backgrd2-color: #EEF5F9;
+  --backgrd3-color: #d6dde0;
+  --ok-color: #009400;
+  --error-color: #C60001;
+  --warning-color: #F7C600;
+  --window-radius: 0px;
+  --window-border: solid 2px var(--main-color);
+}
+
+.TablePage {
+  position: relative;
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-height: 100%;
+}
+
+.TablePageButtonSection {
+  display: flex;
+  gap: 5px;
+}
+
+.TablePageButtonLeftRightSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SectionBox {
+  display: flex;
+  width: min-content;
+  max-height: 80vh;
+  min-height: 100px;
+  background-color: var(--backgrd-color);
+  border-radius: var(--window-radius);
+  padding: 15px;
+  overflow: hidden;
+}
+
+.SectionFull {
+  display: block;
+  position: relative;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin: 10px;
+  background-color: var(--backgrd-color);
+  border-radius: var(--window-radius);
+  z-index: 0;
+}
+
+.blur {
+  filter: blur(4px);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  /*   border-radius: 0px;
+  border: 3px solid #ffffff; */
+}

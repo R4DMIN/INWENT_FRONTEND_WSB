@@ -1,0 +1,93 @@
+.LoginPage {
+    display: flex;
+    height: 500px;
+    margin: 0;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 9px 8px 41px -30px var(--main-color);
+    -moz-box-shadow: 9px 8px 41px -30px var(--main-color);
+    box-shadow: 9px 8px 41px -30px var(--main-color);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.LoginPage .Photo {
+    width: 380px;
+    border: 1px;
+    overflow: hidden;
+    height: 500px;
+    justify-content: center;
+}
+
+.LoginPage .Form {
+    padding-top: 50px;
+    background-color: var(--backgrd-color);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LoginPage .Form .Input {
+    margin-top: 50px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.LoginPage .Form input {
+    border: 2px solid var(--backgrd3-color);
+}
+
+.LoginPage .Form .Input input {
+    /* background-color: var(--backgrd3-color); */
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.LoginPage .Form .Input input:focus-visible {
+    outline: none;
+
+}
+
+.LoginPage .Form .Button {
+    margin-top: 40px;
+}
+
+.LoginPage .Form .Remember {
+    margin-top: 10px;
+    display: flex;
+    width: 280px;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.LoginPage .Form .Remember input {
+    accent-color: var(--main-color);
+}
+
+.LoginPage .Form .Restart {
+    margin-top: 22px;
+    font-size: 12px;
+}
+
+.LoginPage .Form .Restart a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.LoginPage .Form .Logo {
+    margin-top: 20px;
+    background-color: var(--main-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
